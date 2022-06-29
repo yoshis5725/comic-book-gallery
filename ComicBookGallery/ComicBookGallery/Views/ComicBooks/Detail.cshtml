@@ -2,8 +2,8 @@
 @model ComicBookGallery.Models.ComicBook
 
 @{
-    Layout = "_Layout";
     ViewBag.Title = Model.DisplayText;
+    ViewBag.ShowBackBar = true;
 }
 
 <h2>@Model.DisplayText</h2>
