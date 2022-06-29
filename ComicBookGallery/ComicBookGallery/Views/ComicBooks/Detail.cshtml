@@ -22,12 +22,14 @@
                 }
                 else
                 {
-                    @foreach (var artist in @Model.Artists)
-                    {
-                        <ul>
-                            <li>@artist.Role: @artist.Name</li>
-                        </ul>
-                    }
+                    <div>
+                        @foreach (var artist in @Model.Artists)
+                        {
+                            <ul>
+                                <li>@artist.Role: @artist.Name</li>
+                            </ul>
+                        }
+                    </div>
                 }
         </div>
         <h5>Description</h5>
